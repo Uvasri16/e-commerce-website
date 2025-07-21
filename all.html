@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Categories – MyStore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f7f8fa; }
+    h1 { background: linear-gradient(90deg,#ffd600,#ffa726); color: #232f3e; margin: 0; padding: 32px 0 18px 0; text-align: center; font-size: 2.4em; }
+    .all-categories-grid {
+      max-width: 1200px; margin: 32px auto; display: flex; flex-wrap: wrap;
+      gap: 28px 0; justify-content: center;
+    }
+    .category-block {
+      background: #fff; margin: 16px; flex: 0 0 190px; border-radius: 12px; box-shadow: 0 2px 8px #f9d29155;
+      padding: 30px 0 20px 0; text-align: center; transition: transform 0.13s;
+      cursor: pointer;
+    }
+    .category-block:hover { transform: translateY(-4px) scale(1.04); box-shadow: 0 4px 18px #ffd81448; }
+    .cat-icon { font-size: 2.2em; margin-bottom: 12px;}
+    .cat-title { color: #232f3e; font-size:1.1em; font-weight: 600; letter-spacing: 0.3px; }
+    @media (max-width:690px){
+      .all-categories-grid { gap: 12px 0; }
+      .category-block { flex: 0 0 42vw; margin: 8px; }
+    }
+    @media (max-width:450px){
+      h1 { font-size: 1.5em; }
+      .category-block { flex: 0 0 80vw; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Shop by All Categories</h1>
+  <div class="all-categories-grid">
+    <a class="category-block" href="#"><div class="cat-icon">📱</div><div class="cat-title">Mobile Phones & Gadgets</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">💻</div><div class="cat-title">Computers & Electronics</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">👗</div><div class="cat-title">Clothing & Fashion</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">👟</div><div class="cat-title">Shoes & Accessories</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🏠</div><div class="cat-title">Home & Kitchen</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🛋️</div><div class="cat-title">Furniture & Decor</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🥗</div><div class="cat-title">Groceries & Food</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🍾</div><div class="cat-title">Beverages</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">💄</div><div class="cat-title">Beauty & Personal Care</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🏋️</div><div class="cat-title">Sports & Fitness</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🎮</div><div class="cat-title">Toys, Games & Hobbies</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">📚</div><div class="cat-title">Books, Music & Media</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🍼</div><div class="cat-title">Baby & Maternity</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🚗</div><div class="cat-title">Automotive & Industrial</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">💼</div><div class="cat-title">Office & Stationery</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🏕️</div><div class="cat-title">Outdoor & Travel</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🌿</div><div class="cat-title">Garden & Pets</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">💊</div><div class="cat-title">Health & Wellness</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🎁</div><div class="cat-title">Gifting & Special Occasions</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🧳</div><div class="cat-title">Luggage & Bags</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">👶</div><div class="cat-title">Kids & Toys</div></a>
+    <a class="category-block" href="#"><div class="cat-icon">🛠️</div><div class="cat-title">DIY, Tools & Hardware</div></a>
+  </div>
+
+</body>
+</html>
